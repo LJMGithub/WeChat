@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"wechat");
     // Do any additional setup after loading the view.
     NSLog(@"微信开始编辑");
 }
