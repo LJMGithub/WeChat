@@ -15,6 +15,7 @@
 		841352E11DBA5CF900DB7B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841352DF1DBA5CF900DB7B43 /* LaunchScreen.storyboard */; };
 		841352EC1DBA5CF900DB7B43 /* WeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841352EB1DBA5CF900DB7B43 /* WeChatTests.m */; };
 		841352F71DBA5CF900DB7B43 /* WeChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841352F61DBA5CF900DB7B43 /* WeChatUITests.m */; };
+		842A59E51DBA60C000D493D7 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A59E41DBA60C000D493D7 /* SecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		841352F21DBA5CF900DB7B43 /* WeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841352F61DBA5CF900DB7B43 /* WeChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatUITests.m; sourceTree = "<group>"; };
 		841352F81DBA5CF900DB7B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842A59E31DBA60C000D493D7 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		842A59E41DBA60C000D493D7 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				841352D51DBA5CF900DB7B43 /* AppDelegate.m */,
 				841352D71DBA5CF900DB7B43 /* ViewController.h */,
 				841352D81DBA5CF900DB7B43 /* ViewController.m */,
+				842A59E31DBA60C000D493D7 /* SecondVC.h */,
+				842A59E41DBA60C000D493D7 /* SecondVC.m */,
 				841352DA1DBA5CF900DB7B43 /* Main.storyboard */,
 				841352DD1DBA5CF900DB7B43 /* Assets.xcassets */,
 				841352DF1DBA5CF900DB7B43 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				841352D91DBA5CF900DB7B43 /* ViewController.m in Sources */,
 				841352D61DBA5CF900DB7B43 /* AppDelegate.m in Sources */,
+				842A59E51DBA60C000D493D7 /* SecondVC.m in Sources */,
 				841352D31DBA5CF900DB7B43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +505,7 @@
 				841352FD1DBA5CF900DB7B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		841352FE1DBA5CF900DB7B43 /* Build configuration list for PBXNativeTarget "WeChatTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				841353001DBA5CF900DB7B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		841353011DBA5CF900DB7B43 /* Build configuration list for PBXNativeTarget "WeChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				841353031DBA5CF900DB7B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
