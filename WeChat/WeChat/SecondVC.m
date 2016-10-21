@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"wechat");
     // Do any additional setup after loading the view.
 }
 
